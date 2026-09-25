@@ -21,7 +21,7 @@ export default function Navbar() {
             className="text-lg font-bold tracking-tight"
             onClick={() => setIsOpen(false)}
           >
-            YourName
+            Tesfaye Fekadu
           </a>
 
           {/* Desktop Navigation */}
@@ -30,7 +30,7 @@ export default function Navbar() {
               <a
                 key={item.label}
                 href={item.href}
-                className="text-sm font-medium text-gray-600 transition-colors hover:text-black"
+                className="rounded-sm text-sm font-medium text-gray-600 transition-colors hover:text-black focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2"
               >
                 {item.label}
               </a>
@@ -64,7 +64,10 @@ export default function Navbar() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="border-t border-gray-200 py-4 md:hidden">
+          <div
+  id="mobile-navigation"
+  className="border-t border-gray-200 py-4 md:hidden"
+>
             <div className="flex flex-col">
               {navItems.map((item) => (
                 <a

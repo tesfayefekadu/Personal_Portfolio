@@ -31,7 +31,7 @@ export default function Contact() {
                 href="https://github.com"
                 target="_blank"
                 rel="noreferrer"
-                className="rounded-full border border-gray-300 px-6 py-3 text-sm font-semibold transition hover:bg-gray-100"
+                className="rounded-full border border-gray-300 px-6 py-3 text-sm font-semibold transition hover:bg-gray-50"
               >
                 GitHub
               </a>
