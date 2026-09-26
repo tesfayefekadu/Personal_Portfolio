@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Tesfaye Fekadu, a full-stack developer building modern websites and web applications.",
   keywords: [
+    "Tesfaye Fekadu",
     "Full-Stack Developer",
     "Web Developer",
     "Next.js Developer",
@@ -18,6 +19,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Tesfaye Fekadu" }],
   creator: "Tesfaye Fekadu",
+
+  verification: {
+    google: "_04e5aZxwgbGnF1hzLYlQfHqoBr3i3EZL0pdJWhSUHQ",
+  },
+
   openGraph: {
     title: "Tesfaye Fekadu | Full-Stack Developer",
     description:
